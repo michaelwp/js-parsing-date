@@ -1,0 +1,30 @@
+{
+  "name": "js-parsing-date",
+  "version": "1.0.0",
+  "description": "library node js untuk menghitung selisih dan detail antara dua tanggal.",
+  "main": "js-date.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelwp/js-parsing-date.git"
+  },
+  "keywords": [
+    "date",
+    "difference"
+  ],
+  "author": "michael.wenceslaus@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelwp/js-parsing-date/issues"
+  },
+  "homepage": "https://github.com/michaelwp/js-parsing-date#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "pre-push": "^0.1.1"
+  },
+  "pre-push": [
+    "test"
+  ]
+}
